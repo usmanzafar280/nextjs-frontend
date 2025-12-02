@@ -91,11 +91,16 @@ export default function Home() {
                   <h1 className="text-2xl text-slate-700 font-light">
                     Ssory Kid, <br /> your Parent must to pay for your wish!
                   </h1>
-                  <p className="mt-4 text-slate-700 font-light">
+                  <p className="my-4 text-slate-700 font-light">
                     Please share this Link with Mom or Dad!!!
                   </p>
 
-                  <Link href="/parent">Link to registration</Link>
+                  <Link
+                    href="/parent"
+                    className="text-slate-700 mt-8 underline"
+                  >
+                    ← Registration
+                  </Link>
                 </>
               ) : (
                 <h1 className="text-2xl text-slate-700 font-light">My Wish</h1>
